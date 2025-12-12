@@ -21,6 +21,7 @@
 
 // AOC kernel demonstrating the saxpy computation
 // using 4 work groups
+// Note: floating point design changes all variable data types to float
 
 __kernel void saxpy(__global const int *x,
 		    __global const int *y,
