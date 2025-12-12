@@ -20,6 +20,8 @@
 // by the laws of the United States of America.
 
 // AOC kernel demonstrating the saxpy computation
+// Using maximum number of work groups (N)
+// Note: floating point design changes all variable data types to float
 
 __kernel void saxpy(__global const int *x,
 		    __global const int *y,
